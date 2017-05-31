@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D6FFC7B1EDEBEEA00A4A826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6FFC7A1EDEBEEA00A4A826 /* AppDelegate.swift */; };
+		2D6FFC7D1EDEBEEA00A4A826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6FFC7C1EDEBEEA00A4A826 /* ViewController.swift */; };
+		2D6FFC801EDEBEEA00A4A826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6FFC7E1EDEBEEA00A4A826 /* Main.storyboard */; };
+		2D6FFC821EDEBEEA00A4A826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6FFC811EDEBEEA00A4A826 /* Assets.xcassets */; };
+		2D6FFC851EDEBEEA00A4A826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6FFC831EDEBEEA00A4A826 /* LaunchScreen.storyboard */; };
+		2D6FFC901EDEBEEA00A4A826 /* CropRotaPhoto_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6FFC8F1EDEBEEA00A4A826 /* CropRotaPhoto_swiftUITests.swift */; };
+		2D6FFCA01EDEBF0A00A4A826 /* CropPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6FFC9A1EDEBF0A00A4A826 /* CropPhotoView.swift */; };
+		2D6FFCA11EDEBF0A00A4A826 /* CropPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6FFC9B1EDEBF0A00A4A826 /* CropPhotoViewController.swift */; };
+		2D6FFCA21EDEBF0A00A4A826 /* CropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6FFC9C1EDEBF0A00A4A826 /* CropView.swift */; };
+		2D6FFCA31EDEBF0A00A4A826 /* PhotoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6FFC9D1EDEBF0A00A4A826 /* PhotoScrollView.swift */; };
+		2D6FFCA41EDEBF0A00A4A826 /* PhotoTweak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6FFC9E1EDEBF0A00A4A826 /* PhotoTweak.swift */; };
+		2D6FFCA51EDEBF0A00A4A826 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6FFC9F1EDEBF0A00A4A826 /* UIViewExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D6FFC8C1EDEBEEA00A4A826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D6FFC6F1EDEBEEA00A4A826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D6FFC761EDEBEEA00A4A826;
+			remoteInfo = "CropRotaPhoto-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D6FFC771EDEBEEA00A4A826 /* CropRotaPhoto-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CropRotaPhoto-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6FFC7A1EDEBEEA00A4A826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D6FFC7C1EDEBEEA00A4A826 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D6FFC7F1EDEBEEA00A4A826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D6FFC811EDEBEEA00A4A826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D6FFC841EDEBEEA00A4A826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D6FFC861EDEBEEA00A4A826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6FFC8B1EDEBEEA00A4A826 /* CropRotaPhoto-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CropRotaPhoto-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6FFC8F1EDEBEEA00A4A826 /* CropRotaPhoto_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropRotaPhoto_swiftUITests.swift; sourceTree = "<group>"; };
+		2D6FFC911EDEBEEA00A4A826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6FFC9A1EDEBF0A00A4A826 /* CropPhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropPhotoView.swift; sourceTree = "<group>"; };
+		2D6FFC9B1EDEBF0A00A4A826 /* CropPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropPhotoViewController.swift; sourceTree = "<group>"; };
+		2D6FFC9C1EDEBF0A00A4A826 /* CropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropView.swift; sourceTree = "<group>"; };
+		2D6FFC9D1EDEBF0A00A4A826 /* PhotoScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoScrollView.swift; sourceTree = "<group>"; };
+		2D6FFC9E1EDEBF0A00A4A826 /* PhotoTweak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTweak.swift; sourceTree = "<group>"; };
+		2D6FFC9F1EDEBF0A00A4A826 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D6FFC741EDEBEEA00A4A826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6FFC881EDEBEEA00A4A826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D6FFC6E1EDEBEEA00A4A826 = {
+			isa = PBXGroup;
+			children = (
+				2D6FFC791EDEBEEA00A4A826 /* CropRotaPhoto-swift */,
+				2D6FFC8E1EDEBEEA00A4A826 /* CropRotaPhoto-swiftUITests */,
+				2D6FFC781EDEBEEA00A4A826 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D6FFC781EDEBEEA00A4A826 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D6FFC771EDEBEEA00A4A826 /* CropRotaPhoto-swift.app */,
+				2D6FFC8B1EDEBEEA00A4A826 /* CropRotaPhoto-swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D6FFC791EDEBEEA00A4A826 /* CropRotaPhoto-swift */ = {
+			isa = PBXGroup;
+			children = (
+				2D6FFC7A1EDEBEEA00A4A826 /* AppDelegate.swift */,
+				2D6FFC7C1EDEBEEA00A4A826 /* ViewController.swift */,
+				2D6FFC9A1EDEBF0A00A4A826 /* CropPhotoView.swift */,
+				2D6FFC9B1EDEBF0A00A4A826 /* CropPhotoViewController.swift */,
+				2D6FFC9C1EDEBF0A00A4A826 /* CropView.swift */,
+				2D6FFC9D1EDEBF0A00A4A826 /* PhotoScrollView.swift */,
+				2D6FFC9E1EDEBF0A00A4A826 /* PhotoTweak.swift */,
+				2D6FFC9F1EDEBF0A00A4A826 /* UIViewExtensions.swift */,
+				2D6FFC7E1EDEBEEA00A4A826 /* Main.storyboard */,
+				2D6FFC811EDEBEEA00A4A826 /* Assets.xcassets */,
+				2D6FFC831EDEBEEA00A4A826 /* LaunchScreen.storyboard */,
+				2D6FFC861EDEBEEA00A4A826 /* Info.plist */,
+			);
+			path = "CropRotaPhoto-swift";
+			sourceTree = "<group>";
+		};
+		2D6FFC8E1EDEBEEA00A4A826 /* CropRotaPhoto-swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D6FFC8F1EDEBEEA00A4A826 /* CropRotaPhoto_swiftUITests.swift */,
+				2D6FFC911EDEBEEA00A4A826 /* Info.plist */,
+			);
+			path = "CropRotaPhoto-swiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D6FFC761EDEBEEA00A4A826 /* CropRotaPhoto-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D6FFC941EDEBEEA00A4A826 /* Build configuration list for PBXNativeTarget "CropRotaPhoto-swift" */;
+			buildPhases = (
+				2D6FFC731EDEBEEA00A4A826 /* Sources */,
+				2D6FFC741EDEBEEA00A4A826 /* Frameworks */,
+				2D6FFC751EDEBEEA00A4A826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CropRotaPhoto-swift";
+			productName = "CropRotaPhoto-swift";
+			productReference = 2D6FFC771EDEBEEA00A4A826 /* CropRotaPhoto-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D6FFC8A1EDEBEEA00A4A826 /* CropRotaPhoto-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D6FFC971EDEBEEA00A4A826 /* Build configuration list for PBXNativeTarget "CropRotaPhoto-swiftUITests" */;
+			buildPhases = (
+				2D6FFC871EDEBEEA00A4A826 /* Sources */,
+				2D6FFC881EDEBEEA00A4A826 /* Frameworks */,
+				2D6FFC891EDEBEEA00A4A826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D6FFC8D1EDEBEEA00A4A826 /* PBXTargetDependency */,
+			);
+			name = "CropRotaPhoto-swiftUITests";
+			productName = "CropRotaPhoto-swiftUITests";
+			productReference = 2D6FFC8B1EDEBEEA00A4A826 /* CropRotaPhoto-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D6FFC6F1EDEBEEA00A4A826 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "陈旭";
+				TargetAttributes = {
+					2D6FFC761EDEBEEA00A4A826 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					2D6FFC8A1EDEBEEA00A4A826 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D6FFC761EDEBEEA00A4A826;
+					};
+				};
+			};
+			buildConfigurationList = 2D6FFC721EDEBEEA00A4A826 /* Build configuration list for PBXProject "CropRotaPhoto-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D6FFC6E1EDEBEEA00A4A826;
+			productRefGroup = 2D6FFC781EDEBEEA00A4A826 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D6FFC761EDEBEEA00A4A826 /* CropRotaPhoto-swift */,
+				2D6FFC8A1EDEBEEA00A4A826 /* CropRotaPhoto-swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D6FFC751EDEBEEA00A4A826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6FFC851EDEBEEA00A4A826 /* LaunchScreen.storyboard in Resources */,
+				2D6FFC821EDEBEEA00A4A826 /* Assets.xcassets in Resources */,
+				2D6FFC801EDEBEEA00A4A826 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6FFC891EDEBEEA00A4A826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D6FFC731EDEBEEA00A4A826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6FFCA31EDEBF0A00A4A826 /* PhotoScrollView.swift in Sources */,
+				2D6FFCA01EDEBF0A00A4A826 /* CropPhotoView.swift in Sources */,
+				2D6FFCA51EDEBF0A00A4A826 /* UIViewExtensions.swift in Sources */,
+				2D6FFCA11EDEBF0A00A4A826 /* CropPhotoViewController.swift in Sources */,
+				2D6FFC7D1EDEBEEA00A4A826 /* ViewController.swift in Sources */,
+				2D6FFC7B1EDEBEEA00A4A826 /* AppDelegate.swift in Sources */,
+				2D6FFCA21EDEBF0A00A4A826 /* CropView.swift in Sources */,
+				2D6FFCA41EDEBF0A00A4A826 /* PhotoTweak.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6FFC871EDEBEEA00A4A826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6FFC901EDEBEEA00A4A826 /* CropRotaPhoto_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D6FFC8D1EDEBEEA00A4A826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D6FFC761EDEBEEA00A4A826 /* CropRotaPhoto-swift */;
+			targetProxy = 2D6FFC8C1EDEBEEA00A4A826 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D6FFC7E1EDEBEEA00A4A826 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D6FFC7F1EDEBEEA00A4A826 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D6FFC831EDEBEEA00A4A826 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D6FFC841EDEBEEA00A4A826 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D6FFC921EDEBEEA00A4A826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D6FFC931EDEBEEA00A4A826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D6FFC951EDEBEEA00A4A826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CropRotaPhoto-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOW.CropRotaPhoto-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2D6FFC961EDEBEEA00A4A826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CropRotaPhoto-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOW.CropRotaPhoto-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2D6FFC981EDEBEEA00A4A826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "CropRotaPhoto-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOW.CropRotaPhoto-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "CropRotaPhoto-swift";
+			};
+			name = Debug;
+		};
+		2D6FFC991EDEBEEA00A4A826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "CropRotaPhoto-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOW.CropRotaPhoto-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "CropRotaPhoto-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D6FFC721EDEBEEA00A4A826 /* Build configuration list for PBXProject "CropRotaPhoto-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6FFC921EDEBEEA00A4A826 /* Debug */,
+				2D6FFC931EDEBEEA00A4A826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D6FFC941EDEBEEA00A4A826 /* Build configuration list for PBXNativeTarget "CropRotaPhoto-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6FFC951EDEBEEA00A4A826 /* Debug */,
+				2D6FFC961EDEBEEA00A4A826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D6FFC971EDEBEEA00A4A826 /* Build configuration list for PBXNativeTarget "CropRotaPhoto-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6FFC981EDEBEEA00A4A826 /* Debug */,
+				2D6FFC991EDEBEEA00A4A826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D6FFC6F1EDEBEEA00A4A826 /* Project object */;
+}
