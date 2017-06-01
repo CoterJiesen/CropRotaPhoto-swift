@@ -423,24 +423,7 @@ class PhotoTweakView: UIView,UIScrollViewDelegate,CropViewDelegate {
     // 正在缩放的代理方法  只要在缩放就执行该方法，所以此方法会在缩放过程中多次调用
 //
 //    func scrollViewDidZoom(_ scrollView: UIScrollView) {
-//            //    self.photoContentView.center = scrollView.center;
-//            //    self.photoContentView.center = CGPointMake(CX_W / 2 , 395 / 2 );
-//        let x: CGFloat = self.scrollView.frame.origin.x
-//        let y: CGFloat = self.scrollView.frame.origin.y
-//        let w: CGFloat = self.scrollView.frame.size.width
-//        let h: CGFloat = self.scrollView.frame.size.height
-//        let c_x: CGFloat = self.scrollView.center.x
-//        let c_y: CGFloat = self.scrollView.center.y
-////        let contentSize_w: CGFloat = self.scrollView!.contentSize.width
-////        let contentSize_h: CGFloat = self.scrollView!.contentSize.height
-//        print(String(format: "%.0f-%.0f-%.0f-%.0f", x, y, w, h))
-//        print(String(format: "%.0f=%.0f", c_x, c_y))
-//        //    if (contentSize_w < CX_W) {
-//        ////        self.scrollView.contentSize.width == CX_W;
-//        //        [self.scrollView setContentSize:CGSizeMake(CX_W, contentSize_h)];
-//        //    }
-//        //    
-//        //    NSLog(@"%.0f=%.0f",contentSize_w,contentSize_h);
+
 //    }
 // MARK: - Crop View Delegate
 

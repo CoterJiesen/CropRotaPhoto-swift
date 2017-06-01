@@ -39,23 +39,12 @@ UINavigationControllerDelegate,PhotoTweaksViewControllerDelegate {
     //选择图片成功后代理
     func imagePickerController(_ picker: UIImagePickerController,
                                didFinishPickingMediaWithInfo info: [String : Any]) {
-        //查看info对象
-        print(info)
-        
-        //显示的图片
+
         let image:UIImage!
-//        if editSwitch.isOn {
-//            //获取编辑后的图片
-//            image = info[UIImagePickerControllerEditedImage] as! UIImage
-//        }else{
-//            //获取选择的原图
+
             image = info[UIImagePickerControllerOriginalImage] as! UIImage
-//            let a = image.CGImage!.width
-//        }
-        //图片控制器退出
-//        picker.dismiss(animated: true, completion: {
-//            () -> Void in
-//        })
+
+
 
         
         let photoTweaksViewController = CropPhotoViewController()
