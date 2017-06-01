@@ -67,7 +67,7 @@ UINavigationControllerDelegate,PhotoTweaksViewControllerDelegate {
         
     }
     func photoTweaksController(_ controller: CropPhotoViewController, didFinishWithCroppedImage croppedImage: UIImage){
-//        imageView.image = croppedImage
+        imageView.image = croppedImage
        _ = controller.navigationController?.popViewController(animated: true)
     }
   

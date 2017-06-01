@@ -199,10 +199,8 @@ class PhotoTweakView: UIView,UIScrollViewDelegate,CropViewDelegate {
 
         photoContentView = PhotoContentView.init(frame: self.scrollView.bounds, image: self.image)
         
-        photoContentView.backgroundColor            = UIColor.blue
         photoContentView.isUserInteractionEnabled   = true
-        
-//        return photoContentView
+
         scrollView.photoContentView = photoContentView
         scrollView.addSubview(photoContentView)
         
@@ -284,14 +282,14 @@ class PhotoTweakView: UIView,UIScrollViewDelegate,CropViewDelegate {
         bottomBtnsView = UIView(frame: CGRect(x: CGFloat(0), y: CGFloat(0), width: CGFloat(CX_W), height: CGFloat(150)))
 
         bottomBtnsView.center = CGPoint(x: CGFloat(bounds.width / 2), y: CGFloat((bottomView.h) - ((bottomBtnsView.h) / 2) - 5))
-        bottomBtnsView.backgroundColor = UIColor.blue
+//        bottomBtnsView.backgroundColor = UIColor.blue
         bottomView.addSubview(bottomBtnsView)
         let _: CGFloat = 40
         let centerPX: Float = Float( CX_W / 5 )
         for i in 0..<btnTitleArray.count {
             let sizeBtn = UIButton(type: .custom)
 
-            sizeBtn.frame = CGRect(x: CGFloat(0), y: CGFloat(0), width: CGFloat(50), height: CGFloat(50))
+            sizeBtn.frame = CGRect(x: CGFloat(0), y: CGFloat(0), width: CGFloat(60), height: CGFloat(60))
             sizeBtn.center = CGPoint(x: CGFloat(centerPX + (Float(i) * centerPX)), y: CGFloat(((bottomBtnsView.h) / 2)))
             sizeBtn.setTitle(btnTitleArray[i], for: .normal)
             sizeBtn.titleLabel?.font = UIFont.systemFont(ofSize: CGFloat(12))
@@ -326,7 +324,7 @@ class PhotoTweakView: UIView,UIScrollViewDelegate,CropViewDelegate {
         scrollViewAngle.center = CGPoint(x: CGFloat(bounds.width / 2), y: CGFloat(bounds.height - 65))
         scrollView.alwaysBounceVertical     = true
         scrollView.alwaysBounceHorizontal   = true
-        scrollViewAngle.backgroundColor     = UIColor.green
+//        scrollViewAngle.backgroundColor     = UIColor.green
         scrollViewAngle.showsVerticalScrollIndicator    = false
         scrollViewAngle.showsHorizontalScrollIndicator  = false
         scrollViewAngle.tag         = 10000
